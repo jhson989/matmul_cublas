@@ -1,6 +1,7 @@
 # cuBLAS GEMM Example for FP32 MatMul
 
 ## 1. Introduction
+설명을 https://computing-jhson.tistory.com/24 에 추가함
 
 ## 2. How to Run
 - make
