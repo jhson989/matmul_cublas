@@ -10,4 +10,6 @@
 - make
     - make DEBUG=ON 시, cuBLAS 계산 결과 검증 진행
 - make run
-    - main.cu 내 M, N, K 변수를 통해 Matrix 크기를 조절할 수 있음
+    - main.cu 내 M, N, K 변수를 통해 Matrix 크기를 조절
+    - sparsity 변수를 통해 sparse matrix의 sparsity 조절
+        - ex) sparsity = 0.01 일 경우, matrix의 1%만 non-zero 변수를 가짐
