@@ -2,6 +2,9 @@
 
 ## 1. Introduction
 설명을 https://computing-jhson.tistory.com/24 에 추가함
+- main.cu : main 함수
+- src/kernel.cu : cuBLAS api 호출 interface 함수
+- src/debug.cu : CUDA 및 cuBLAS 에러 핸들링 및 계산 결과 검증을 위한 debugging functions
 
 ## 2. How to Run
 - make
